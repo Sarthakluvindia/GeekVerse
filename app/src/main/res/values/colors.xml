@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F7AF42</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background">#F7AF42</color>
+    <color name="scrollback">#000</color>
+    <color name="hpback">#2C1618</color>
+    <color name="hpfont">#E4C899</color>
+    <color name="lotr">#242C15</color>
+    <color name="got">#153874</color>
+    <color name="geekverse">#01A101</color>
+    <color name="gotfont">#5DBCD2</color>
+    <color name="cursor_st">#F7AF42</color>
+    <color name="cursor_hp">#2C1618</color>
+    <color name="cursor_lotr">#242C15</color>
+    <color name="cursor_got">#153874</color>
+    <color name="cursor_signup">#01A101</color>
+</resources>

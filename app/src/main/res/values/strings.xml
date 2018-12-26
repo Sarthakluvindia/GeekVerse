@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">GeekVerse</string>
+    <string name="facebook_id">154754165226817</string>
+    <string name="signed_in_fmt">Signed in as: %s</string>
+    <string name="signed_in">Signed in</string>
+    <string name="signing_in">Signing in…</string>
+    <string name="signed_out">Signed out</string>
+    <string name="signed_in_err">"Error: please check logs."</string>
+    <string name="error_null_person">
+        Error: Plus.PeopleApi.getCurrentPerson returned null. Ensure that the Google+ API is
+        enabled for your project, you have a properly configured google-services.json file
+        and that your device has an internet connection.
+    </string>
+    <string name="facebook_app_id">199374414009408</string>
+    <string name="fb_login_protocol_scheme">fb199374414009408</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="loading">Loading…</string>
+    <string name="auth_code_fmt">Auth Code: %s</string>
+    <string name="id_token_fmt">ID Token: %s</string>
+    <string name="login_page_error"><u>Forgot your password?</u></string>
+    <string name="forget_your_password">Please enter your registered email, and we will send your password on your email address. </string>
+    <string name="fyp"><b>Forgot Your Password?</b></string>
+    <string-array name="hastags_st">
+        <item>#GameOfThrones</item>
+        <item>#jonsnow</item>
+        <item>#nedstark</item>
+        <item>#kinginthenorth</item>
+        <item>#KingInTheNorth</item>
+        <item>#aryastark</item>
+        <item>#sansastark</item>
+        <item>#direwolf</item>
+        <item>#WinterIsComing</item>
+        <item>#NorthRemembers</item>
+        <item>#AGirlHasNoName</item>
+    </string-array>
+</resources>

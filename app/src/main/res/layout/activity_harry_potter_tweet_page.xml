@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:layout_height="match_parent"
+    android:background="@drawable/hp_background"
+    tools:context="com.developer.sarthak.updgeekverse.harry_potter_tweet_page">
+
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.3">
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/hp_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:layout_margin="@dimen/fab_margin"
+            android:src="@drawable/ic_close_white_24dp"
+            android:scaleType="center"
+            android:backgroundTint="@android:color/transparent"
+            android:background="@android:color/transparent"
+            app:borderWidth="0dp" />
+
+        <Button
+            android:id="@+id/hp_post"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|top"
+            android:background="@drawable/hp_tweet_bg"
+            android:layout_margin="@dimen/fab_margin"
+            android:padding="18px"
+            android:text="post"
+            android:textColor="#E4C899"
+            tools:layout_editor_absoluteX="457dp" />
+    </android.support.design.widget.CoordinatorLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/hp_tweet"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:textColor="#2C1618"
+        android:theme="@style/HarryPotterTheme"
+        android:textCursorDrawable="@drawable/hp_cursor"
+        android:background="@android:color/transparent"
+        android:gravity="top|left"
+        android:layout_margin="@dimen/fab_margin" />
+
+</LinearLayout>

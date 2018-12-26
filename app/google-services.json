@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "876493610425",
+    "firebase_url": "https://upggeekverse.firebaseio.com",
+    "project_id": "upggeekverse",
+    "storage_bucket": "upggeekverse.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:876493610425:android:138f3d5575f9ef9f",
+        "android_client_info": {
+          "package_name": "com.developer.sarthak.updgeekverse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "876493610425-lqld35laqpdceq3sv6aflu1ck6sm2lso.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.developer.sarthak.updgeekverse",
+            "certificate_hash": "c6c5f1fe87b265efdd0423ec901789a2d98acf27"
+          }
+        },
+        {
+          "client_id": "876493610425-iss8h3u2um5ccngua9td5r95sar45rj7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0ekbjcqLOFRO2ybyYA5laaBYIpz--qzs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "876493610425-iss8h3u2um5ccngua9td5r95sar45rj7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

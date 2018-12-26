@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.developer.sarthak.updgeekverse.LoginActivity">
+
+    <VideoView
+        android:id="@+id/bgVideoView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/v_guideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="567dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.15104167"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/v_guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="567dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.8567708"
+        tools:layout_editor_absoluteX="329dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/v_guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="567dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.30729166"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/h_guideline1"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.31" />
+
+    <ImageView
+        android:id="@+id/orImageView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/v_guideline1"
+        app:layout_constraintRight_toLeftOf="@+id/v_guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/register"
+        app:srcCompat="@drawable/or"
+        />
+
+    <Button
+        android:id="@+id/wechatLoginButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/wechat_button"
+        android:drawableLeft="@drawable/google_logo"
+        android:paddingLeft="12dp"
+        android:text="google login"
+        android:textColor="@android:color/white"
+        app:layout_constraintLeft_toLeftOf="@+id/v_guideline1"
+        app:layout_constraintRight_toLeftOf="@+id/v_guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/orImageView" />
+
+
+
+    <Button
+        android:id="@+id/fbLoginButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/fb_button"
+        android:drawableLeft="@drawable/fb_logo"
+        android:text="Facebook Login"
+        android:textColor="@android:color/white"
+        app:layout_constraintLeft_toLeftOf="@+id/v_guideline1"
+        app:layout_constraintRight_toLeftOf="@+id/v_guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/wechatLoginButton" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/email_bg"
+        android:hint="Enter Your Email Address"
+        android:inputType="textEmailAddress"
+        android:padding="8dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintLeft_toLeftOf="@+id/v_guideline1"
+        app:layout_constraintRight_toLeftOf="@+id/v_guideline2"
+        app:layout_constraintTop_toTopOf="@+id/h_guideline1" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/email_bg"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:padding="8dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintLeft_toLeftOf="@+id/v_guideline1"
+        app:layout_constraintRight_toLeftOf="@+id/v_guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/email" />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:id="@+id/lay"
+        app:layout_constraintLeft_toLeftOf="@+id/v_guideline1"
+        app:layout_constraintRight_toLeftOf="@+id/v_guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/pass" >
+        <Button
+            android:id="@+id/otherAccButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/other_button"
+            android:text="Login"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/signup"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/other_button"
+            android:text="Signup"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+    <CheckBox
+        android:id="@+id/termCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="#80ffffff"
+        app:layout_constraintLeft_toLeftOf="@+id/v_guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/fbLoginButton" />
+
+    <TextView
+        android:id="@+id/firstTermTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:text="I agree to the Terms of Service."
+        android:textColor="#80ffffff"
+        android:textSize="10sp"
+        app:layout_constraintLeft_toRightOf="@+id/termCheckBox"
+        app:layout_constraintTop_toBottomOf="@+id/fbLoginButton" />
+
+    <TextView
+        android:id="@+id/secTermTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginStart="4dp"
+        android:text="GeekVerse User Terms and Privacy Policy"
+        android:textColor="#80ffffff"
+        android:textSize="10sp"
+        app:layout_constraintLeft_toLeftOf="@+id/v_guideline3"
+        app:layout_constraintLeft_toRightOf="@+id/v_guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/termCheckBox" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:text="@string/login_page_error"
+        android:textColor="#fff"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="@+id/v_guideline1"
+        app:layout_constraintRight_toLeftOf="@+id/v_guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/lay" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="192dp" />
+
+</android.support.constraint.ConstraintLayout>

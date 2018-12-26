@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="18dp"
+    tools:context="com.developer.sarthak.updgeekverse.EditProfile">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        app:civ_border_color="#000"
+        android:src="@drawable/ic_add_a_photo_black_24dp"
+        app:civ_border_width="3dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:textColor="#000"
+        android:textColorHighlight="#000" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ep_name"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tagline:"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:textColor="#000"
+        android:textColorHighlight="#000" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ep_tag"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Email:"
+        android:textSize="18dp"
+        android:textColor="#000"
+        android:textColorHighlight="#000" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ep_email"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fandom:"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:textColor="#000"
+        android:textColorHighlight="#000" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/ep_fandom">
+
+    </Spinner>
+    <Button
+        android:id="@+id/edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit"
+        android:layout_marginTop="10dp"
+        android:background="#000"
+        android:textColor="#fff"
+        android:layout_gravity="center"/>
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context="com.developer.sarthak.updgeekverse.SearchActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:padding="12dp"
+        android:id="@+id/llsearch"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/edsearch"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/email_bg"
+            android:drawableRight="@drawable/ic_search_black_24dp"
+            android:inputType="textPersonName"
+            android:padding="8dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="8dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/llrec"
+        android:layout_height="0dp"
+        android:padding="12dp"
+        android:layout_weight="8">
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/recview">
+
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+
+</LinearLayout>
